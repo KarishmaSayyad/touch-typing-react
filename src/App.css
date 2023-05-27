@@ -2,9 +2,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-}
+  justify-items: center;
+ }
 
 .App-logo {
   height: 40vmin;
@@ -41,19 +42,88 @@
   }
 }
 
+body{
+  background-image:radial-gradient(rgb(24, 20, 24),rgb(20, 15, 21),rgb(0, 0, 0),rgb(35, 6, 35));
 
+}
 
 
 .input_txt input{
   /* width: auto; */
-  width: 100%;
-  padding: 0.2rem;
+  width: 34.5rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+h1{
+  color: white;
 }
 
+button{
+  width: 35rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: blue;
+  font-size: 14px;
+  border-radius: 0.5rem;
+}
+
+button:hover{
+  color: whitesmoke;
+  background-color: rgb(12, 171, 15);
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  color: black;
+}
+
+.bg{
+  background-color: red;
+}
 .type_txt{
   margin-top: 2.5rem;
-  width: 70%;
+  width: 85%;
   height: auto;
-  border: 1px solid #282c34;
-  
+  /* border: 1px solid #282c34;   */
+  padding: 0.5rem;
+  box-shadow: 10px 10px 5px hsla(120, 60%, 70%, 0.3);
+  color: white;
+  font-size: 15px;
+}
+
+
+ p{
+  color: rgb(27, 235, 27);
+  font-family: 'Gill Sans',cambria,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,  Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size:x-large;
+}
+
+.col{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+.section{
+  /* display:grid;
+  justify-content: center;
+  justify-items: center; */
+  margin-top: 5rem;
+  color: whitesmoke;
+}
+
+.container{
+display: flex;
+justify-content: space-around;
+
+}
+
+.color_green{
+  background-color: rgb(30, 217, 30);
+  color: white;
+}
+
+.color_red{
+  background-color: rgb(231, 38, 38);
 }
