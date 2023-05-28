@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+***Deployment
+Unique Deploy URL: https://6472ddb81619087608f2ea3b--voluble-eclair-fe3b7a.netlify.app
+Website URL:       https://voluble-eclair-fe3b7a.netlify.app
+
+
